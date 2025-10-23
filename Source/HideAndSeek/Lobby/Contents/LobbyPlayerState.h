@@ -13,5 +13,10 @@ UCLASS()
 class HIDEANDSEEK_API ALobbyPlayerState : public APlayerState
 {
 	GENERATED_BODY()
+
+public:
+	bool Ready;
+
+	FText Nickname;
 	
 };
